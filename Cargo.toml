@@ -1,0 +1,16 @@
+[package]
+name = "gif-wasm-codec"
+version = "0.1.0"
+edition = "2021"
+authors = [ "Ruyi Li <ruyili2002@gmail.com>" ]
+
+[lib]
+crate-type = [ "cdylib" ]
+
+[dependencies]
+gif = "0.12.0"
+js-sys = "0.3.60"
+wasm-bindgen = "0.2.83"
+
+[dev-dependencies]
+wasm-bindgen-test = "0.3.33"
