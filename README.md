@@ -2,13 +2,13 @@
 
 A WebAssembly library to encode and decode gifs in the browser.
 
-This project is essentially a wrapper over the [gif crate](https://crates.io/crates/gif) written in Rust,
+This project is essentially a wrapper over the [gif crate](https://crates.io/crates/gif) written in Rust.
 
 ## Notes
 
 This project is incomplete - many options exposed by the underlying crate are not configurable. However, the default options should be sufficient for most use cases (like in my [image splitter](https://github.com/RuyiLi/image-splitter)).
 
-Decoding works well and is faster than most JS-only libraries that I've tested. Encoding, on the other hand, has not been fully optimized/may have memory issues and until WASM is more mature I don't see it being faster than a pure JS + web workers approach.
+Decoding works well and is faster than most JS-only libraries that I've tested. Encoding, on the other hand, has not been fully optimized/may have memory issues, and until WASM is more mature, I don't see it being faster than a pure JS + web workers approach.
 
 ## Usage
 
