@@ -2,7 +2,10 @@
 name = "gif-wasm-codec"
 version = "0.1.0"
 edition = "2021"
-authors = [ "Ruyi Li <ruyili2002@gmail.com>" ]
+authors = ["Ruyi Li <ruyili2002@gmail.com>"]
+
+[features]
+default = ["console_error_panic_hook"]
 
 [lib]
 crate-type = [ "cdylib" ]
@@ -11,6 +14,7 @@ crate-type = [ "cdylib" ]
 gif = "0.12.0"
 js-sys = "0.3.60"
 wasm-bindgen = "0.2.83"
+console_error_panic_hook = { version = "0.1.7", optional = true }
 
 [dev-dependencies]
 wasm-bindgen-test = "0.3.33"

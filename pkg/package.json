@@ -1,0 +1,16 @@
+{
+  "name": "gif-wasm-codec",
+  "collaborators": [
+    "Ruyi Li <ruyili2002@gmail.com>"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "gif_wasm_codec_bg.wasm",
+    "gif_wasm_codec.js",
+    "gif_wasm_codec_bg.js",
+    "gif_wasm_codec.d.ts"
+  ],
+  "module": "gif_wasm_codec.js",
+  "types": "gif_wasm_codec.d.ts",
+  "sideEffects": false
+}
